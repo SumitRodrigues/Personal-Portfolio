@@ -5,13 +5,14 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import project1 from "../../public/images/projects/ArticleBuzz-Project.jpg"
-import project2 from "../../public/images/projects/TourismZilla.jpg"
-import project3 from "../../public/images/projects/Restaurant.jpg"
 import { motion } from "framer-motion"
 
 
 const FramerImage = motion(Image);
+
+const project1 = "/images/projects/ArticleBuzz-Project.jpg";
+const project2 = "/images/projects/TourismZilla.jpg";
+const project3 = "/images/projects/Restaurant.jpg";
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
     return (
@@ -26,7 +27,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
             <Link href={link} target="_blank"
                 className='w-1/2 cursor-pointer overflow-hidden rounded-lg'
             >
-                <FramerImage src={img} alt={title} className='w-full h-auto'
+                <FramerImage src={img} alt={title} width={1280} height={720} className='w-full h-auto'
                     whileHover={{ scale: 1.05 }}
                     transition={{ duration: 0.2 }}
                     priority
@@ -76,7 +77,7 @@ const Project = ({ title, type, img, link, github }) => {
             <Link href={link} target="_blank"
                 className='w-full cursor-pointer overflow-hidden rounded-lg'
             >
-                <FramerImage src={img} alt={title} className='w-full h-auto'
+                <FramerImage src={img} alt={title} width={1280} height={720} className='w-full h-auto'
                     whileHover={{ scale: 1.05 }}
                     transition={{ duration: 0.2 }}
                 />
