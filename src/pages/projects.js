@@ -125,8 +125,8 @@ const projects = () => {
                                 summary="Developed a real-time algorithm to predict article popularity, utilizing AWS API Gateway and Lambda.
                              Leveraged UC Irvine's dataset for training, providing insights for content creators and administrators. 
                              Utilized technologies such as HTML, JavaScript, CSS, FastAPI, NGINX, and cloud services."
-                                link="/"
-                                github="/"
+                                link="https://github.com/SumitRodrigues/ArticleBuzz"
+                                github="https://github.com/SumitRodrigues/ArticleBuzz"
                                 type="Featured Project"
 
                             />
@@ -139,8 +139,8 @@ const projects = () => {
                                 different travel packages and select one of them as its next travel destination. He could also book Train, 
                                 Flight and Bus tickets through this website also he could go through various hotels and also book them for his 
                                 next stay."
-                                link="/"
-                                github="/"
+                                link="https://master--loquacious-begonia-f85ae0.netlify.app/"
+                                github="https://github.com/SumitRodrigues/Tourismzilla"
                                 type="Project"
 
                             />
@@ -149,12 +149,9 @@ const projects = () => {
                             <Project
                                 title="Restauarant Management website"
                                 img={project3}
-                                summary="Tourismzilla - A Travel Website created using basic web technologies. It helps the users to go through 
-                                different travel packages and select one of them as its next travel destination. He could also book Train, 
-                                Flight and Bus tickets through this website also he could go through various hotels and also book them for his 
-                                next stay."
-                                link="/"
-                                github="/"
+                                summary="A simple easy to use restaurant website created using HTML, CSS, Javascript and Ajax"
+                                link="https://goggle.github.io/Coursera_HTML-CSS-Javascript-for-Web-Developers/module5_solution/"
+                                github="https://github.com/SumitRodrigues/Coursera_HTML-CSS-Javascript-for-Web-Developers"
                                 type="Project"
 
                             />
