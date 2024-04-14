@@ -156,6 +156,31 @@ const projects = () => {
 
                             />
                         </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Tourismzilla - A travel website"
+                                img={project2}
+                                summary="Tourismzilla - A Travel Website created using basic web technologies. It helps the users to go through 
+                                different travel packages and select one of them as its next travel destination. He could also book Train, 
+                                Flight and Bus tickets through this website also he could go through various hotels and also book them for his 
+                                next stay."
+                                link="https://master--loquacious-begonia-f85ae0.netlify.app/"
+                                github="https://github.com/SumitRodrigues/Tourismzilla"
+                                type="Project"
+
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Restauarant Management website"
+                                img={project3}
+                                summary="A simple easy to use restaurant website created using HTML, CSS, Javascript and Ajax"
+                                link="https://goggle.github.io/Coursera_HTML-CSS-Javascript-for-Web-Developers/module5_solution/"
+                                github="https://github.com/SumitRodrigues/Coursera_HTML-CSS-Javascript-for-Web-Developers"
+                                type="Project"
+
+                            />
+                        </div>
                     </div>
                 </Layout>
             </main>
