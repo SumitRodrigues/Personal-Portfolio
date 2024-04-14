@@ -14,6 +14,8 @@ const FramerImage = motion(Image);
 const project1 = "/images/projects/ArticleBuzz-Project.jpg";
 const project2 = "/images/projects/TourismZilla.jpg";
 const project3 = "/images/projects/Restaurant.jpg";
+const project4 = "/images/projects/SEO.jpg";
+const project5 = "/images/projects/Navigation.jpg";
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
     return (
@@ -158,25 +160,29 @@ const projects = () => {
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Tourismzilla - A travel website"
-                                img={project2}
-                                summary="Tourismzilla - A Travel Website created using basic web technologies. It helps the users to go through 
-                                different travel packages and select one of them as its next travel destination. He could also book Train, 
-                                Flight and Bus tickets through this website also he could go through various hotels and also book them for his 
-                                next stay."
-                                link="https://master--loquacious-begonia-f85ae0.netlify.app/"
-                                github="https://github.com/SumitRodrigues/Tourismzilla"
+                                title="SEO Keyword Tracker and Analyzer"
+                                img={project4}
+                                summary="The SEO Keyword Tracker and Analyzer is a dynamic tool, designed to track and analyze SEO keywords 
+                                for websites using advanced algorithms. Leveraging algorithms like Rabin-Karp, Suffix Tree, Suffix Array, 
+                                and more, this Python and React-based tool offers computational efficiency and precision in SEO analysis. 
+                                Aimed at empowering website owners and digital marketers, it provides deep insights for optimizing online 
+                                visibility. This project represents a fusion of algorithmic mastery and practical application."
+                                link="https://github.com/SumitRodrigues/SEO-Keyword-Tracker-and-Analyzer-main"
+                                github="https://github.com/SumitRodrigues/SEO-Keyword-Tracker-and-Analyzer-main"
                                 type="Project"
 
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Restauarant Management website"
-                                img={project3}
-                                summary="A simple easy to use restaurant website created using HTML, CSS, Javascript and Ajax"
-                                link="https://goggle.github.io/Coursera_HTML-CSS-Javascript-for-Web-Developers/module5_solution/"
-                                github="https://github.com/SumitRodrigues/Coursera_HTML-CSS-Javascript-for-Web-Developers"
+                                title="City Navigation and Blocked Route Planning Tool"
+                                img={project5}
+                                summary="Our navigation tool utilizes the Floyd-Warshall algorithm to discover the quickest routes, 
+                                acknowledging the significance of time in today's rapid-paced environment. Whether it's your everyday 
+                                journey or an exciting road adventure, our sophisticated routing system guarantees a prompt and efficient 
+                                arrival at your destination."
+                                link="https://github.com/SumitRodrigues/City-Navigation-and-Blocked-Route-Planning-Tool"
+                                github="https://github.com/SumitRodrigues/City-Navigation-and-Blocked-Route-Planning-Tool"
                                 type="Project"
 
                             />
