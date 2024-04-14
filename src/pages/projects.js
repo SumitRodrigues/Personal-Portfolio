@@ -208,10 +208,7 @@ const projects = () => {
                             <Project
                                 title="Spotify Clone Website"
                                 img={project7}
-                                summary="Our navigation tool utilizes the Floyd-Warshall algorithm to discover the quickest routes, 
-                                acknowledging the significance of time in today's rapid-paced environment. Whether it's your everyday 
-                                journey or an exciting road adventure, our sophisticated routing system guarantees a prompt and efficient 
-                                arrival at your destination."
+                                summary="Created a Spotify Clone website using HTML, CSS and Javascript"
                                 link="https://github.com/SumitRodrigues/Spotify-Clone"
                                 github="https://github.com/SumitRodrigues/Spotify-Clone"
                                 type="Project"

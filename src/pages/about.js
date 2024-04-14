@@ -50,10 +50,10 @@ const about = () => {
                     <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                         <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
-                            <p className='font-medium'>Hi, I am Sumit Rodrigues, a dedicated Web Developer currently focused on advancing web applications and the digital 
-                            framework at California State University, Fullerton. With a Master of Science in Computer Science from California State University and a Bachelor of Engineering 
-                            in Computer Science from the University of Mumbai, I am well-versed in a multitude of programming languages and frameworks, including Java, Python, C++, JavaScript,
-                             ReactJS, and NodeJS. I also have expertise in cloud technologies like AWS.</p>
+                            <p className='font-medium'>Hi, I am Sumit Rodrigues, a dedicated Software Engineer currently enhancing software systems and infrastructures at California 
+                            State University, Fullerton. Holding a Master of Science in Computer Science from California State University and a Bachelor of Engineering in Computer 
+                            Science from the University of Mumbai, I have a strong command over Java, Python, C++, JavaScript, ReactJS, and NodeJS. My expertise extends to cloud 
+                            technologies such as AWS, where I apply my skills to develop scalable and efficient solutions.</p>
 
                             <p className='my-4 font-medium'>My professional experience spans roles such as an Associate Software Engineer at BNP Paribas, where I significantly boosted 
                             processing efficiencies through automation, and a Web Development Intern at TechHighway Systems Pvt. Ltd., where I sharpened my skills in crafting user-centric 
