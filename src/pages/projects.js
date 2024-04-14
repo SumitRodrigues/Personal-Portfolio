@@ -16,6 +16,10 @@ const project2 = "/images/projects/TourismZilla.jpg";
 const project3 = "/images/projects/Restaurant.jpg";
 const project4 = "/images/projects/SEO.jpg";
 const project5 = "/images/projects/Navigation.jpg";
+const project6 = "/images/projects/Algorithm.jpg";
+const project7 = "/images/projects/Spotify.jpg";
+
+
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
     return (
@@ -183,6 +187,33 @@ const projects = () => {
                                 arrival at your destination."
                                 link="https://github.com/SumitRodrigues/City-Navigation-and-Blocked-Route-Planning-Tool"
                                 github="https://github.com/SumitRodrigues/City-Navigation-and-Blocked-Route-Planning-Tool"
+                                type="Project"
+
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Algorithm Efficiency Analyzer Tool"
+                                img={project6}
+                                summary="This project is a Sorting Algorithm Visualizer implemented in Python using the Tkinter library 
+                                for the graphical user interface (GUI). It allows users to visualize the performance of various sorting 
+                                algorithms on randomly generated or user-defined arrays of numbers."
+                                link="https://github.com/SumitRodrigues/Algorithm-Efficiency-Analyzer-Tool"
+                                github="https://github.com/SumitRodrigues/Algorithm-Efficiency-Analyzer-Tool"
+                                type="Project"
+
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Spotify Clone Website"
+                                img={project7}
+                                summary="Our navigation tool utilizes the Floyd-Warshall algorithm to discover the quickest routes, 
+                                acknowledging the significance of time in today's rapid-paced environment. Whether it's your everyday 
+                                journey or an exciting road adventure, our sophisticated routing system guarantees a prompt and efficient 
+                                arrival at your destination."
+                                link="https://github.com/SumitRodrigues/Spotify-Clone"
+                                github="https://github.com/SumitRodrigues/Spotify-Clone"
                                 type="Project"
 
                             />
