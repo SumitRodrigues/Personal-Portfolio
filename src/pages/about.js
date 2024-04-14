@@ -50,16 +50,19 @@ const about = () => {
                     <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                         <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
-                            <p className='font-medium'>Hi, I&apos;m Sumit Rodrigues, a Software Developer and Web Developer with a passion for creating beautiful, functional,
-                                and user-centered digital experiences. With 2 years of experience in the field. I am always looking for
-                                new and innovative ways to bring my clients&apos; visions to life.</p>
+                            <p className='font-medium'>Hi, I am Sumit Rodrigues, a dedicated Web Developer currently focused on advancing web applications and the digital 
+                            framework at California State University, Fullerton. With a Master of Science in Computer Science from California State University and a Bachelor of Engineering 
+                            in Computer Science from the University of Mumbai, I am well-versed in a multitude of programming languages and frameworks, including Java, Python, C++, JavaScript,
+                             ReactJS, and NodeJS. I also have expertise in cloud technologies like AWS.</p>
 
-                            <p className='my-4 font-medium'>I believe that design is about more than just making things look pretty – it&apos;s about solving problems and
-                                creating intuitive, enjoyable experiences for users.</p>
+                            <p className='my-4 font-medium'>My professional experience spans roles such as an Associate Software Engineer at BNP Paribas, where I significantly boosted 
+                            processing efficiencies through automation, and a Web Development Intern at TechHighway Systems Pvt. Ltd., where I sharpened my skills in crafting user-centric 
+                            interfaces. My projects demonstrate my ability to leverage advanced technologies in practical applications, such as employing machine learning for predictive 
+                            analytics in ArticleBuzz and developing a gesture-controlled gameplay interface.</p>
 
-                            <p className='font-medium'>Whether I&apos;m working on a website, mobile app, or
-                                other digital product, I bring my commitment to design excellence and user-centered thinking to
-                                every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.</p>
+                            <p className='font-medium'>I pride myself on my strong problem-solving skills and my capacity to break down complex technical challenges into manageable solutions. 
+                            I have a track record of delivering projects that not only enhance user experience but also improve operational efficiency, positioning me as a valuable asset in 
+                            the computer science and software development fields.</p>
                         </div>
 
 
