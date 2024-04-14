@@ -209,7 +209,7 @@ const projects = () => {
                                 title="Spotify Clone Website"
                                 img={project7}
                                 summary="Created a Spotify Clone website using HTML, CSS and Javascript"
-                                link="https://github.com/SumitRodrigues/Spotify-Clone"
+                                link="https://spotify-practice.netlify.app/"
                                 github="https://github.com/SumitRodrigues/Spotify-Clone"
                                 type="Project"
 
