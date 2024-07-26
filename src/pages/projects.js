@@ -11,13 +11,14 @@ import TransitionEffect from '@/components/TransitionEffect'
 
 const FramerImage = motion(Image);
 
-const project1 = "/images/projects/ArticleBuzz-Project.jpg";
+const project1 = "/images/projects/Evergreen.png";
 const project2 = "/images/projects/TourismZilla.jpg";
 const project3 = "/images/projects/Restaurant.jpg";
 const project4 = "/images/projects/SEO.jpg";
 const project5 = "/images/projects/Navigation.jpg";
 const project6 = "/images/projects/Algorithm.jpg";
 const project7 = "/images/projects/Spotify.jpg";
+const project8 = "/images/projects/ArticleBuzz-Project.jpg";
 
 
 
@@ -126,13 +127,13 @@ const projects = () => {
                     <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 mg:gap-y-24 sm:gap-x-0'>
                         <div className='col-span-12'>
                             <FeaturedProject
-                                title="ArticleBuzz Predictor: Anticipating Article Shares"
+                                title="Evergreen Bank"
                                 img={project1}
-                                summary="Developed a real-time algorithm to predict article popularity, utilizing AWS API Gateway and Lambda.
-                             Leveraged UC Irvine's dataset for training, providing insights for content creators and administrators. 
-                             Utilized technologies such as HTML, JavaScript, CSS, FastAPI, NGINX, and cloud services."
-                                link="https://github.com/SumitRodrigues/ArticleBuzz"
-                                github="https://github.com/SumitRodrigues/ArticleBuzz"
+                                summary="Evergreen Bank is a financial SaaS platform built with Next.js. It connects to multiple bank 
+                                accounts, displays transactions in real-time, allows users to transfer money to other platform users, 
+                                and manages their finances altogether."
+                                link="https://banking-app-beryl-chi.vercel.app/sign-up"
+                                github="https://github.com/SumitRodrigues/banking_app"
                                 type="Featured Project"
 
                             />
@@ -211,6 +212,19 @@ const projects = () => {
                                 summary="Created a Spotify Clone website using HTML, CSS and Javascript"
                                 link="https://spotify-practice.netlify.app/"
                                 github="https://github.com/SumitRodrigues/Spotify-Clone"
+                                type="Project"
+
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="ArticleBuzz Predictor: Anticipating Article Shares"
+                                img={project8}
+                                summary="Developed a real-time algorithm to predict article popularity, utilizing AWS API Gateway and Lambda.
+                             Leveraged UC Irvine's dataset for training, providing insights for content creators and administrators. 
+                             Utilized technologies such as HTML, JavaScript, CSS, FastAPI, NGINX, and cloud services."
+                                link="https://github.com/SumitRodrigues/ArticleBuzz"
+                                github="https://github.com/SumitRodrigues/ArticleBuzz"
                                 type="Project"
 
                             />

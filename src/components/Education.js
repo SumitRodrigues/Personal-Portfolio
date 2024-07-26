@@ -62,13 +62,13 @@ const Education = () => {
                     time="2023 - 2025"
                     place="California State University, Fullerton"
                     info="Relevant Courses included Cloud Computing, Systems and Software Standards and Requirements, Professional, Ethical and
-                    Legal Issues for Software Engineers"
+                    Legal Issues for Software Engineers, Advanced BlockChain Technologies"
                     />
                     <Details 
                     type="Online Coursework"
                     time="2017 - 2021"
-                    place="Coursera And InternShaala"
-                    info="Completed Coursework in Programming with Python, Python Data Structures, HTML, CSS, and Javascript for Web Developers"
+                    place="Coursera, InternShaala and Oracle"
+                    info="Completed Coursework in Programming with Python, Python Data Structures, HTML, CSS, and Javascript for Web Developers, Oracle Cloud Infrastructure Generative AI Professional"
                     />
                 </ul>
             </div>
