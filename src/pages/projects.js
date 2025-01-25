@@ -19,6 +19,7 @@ const project5 = "/images/projects/Navigation.jpg";
 const project6 = "/images/projects/Algorithm.jpg";
 const project7 = "/images/projects/Spotify.jpg";
 const project8 = "/images/projects/ArticleBuzz-Project.jpg";
+const project9 = "/images/projects/ai-summarizer.jpg";
 
 
 
@@ -225,6 +226,20 @@ const projects = () => {
                              Utilized technologies such as HTML, JavaScript, CSS, FastAPI, NGINX, and cloud services."
                                 link="https://github.com/SumitRodrigues/ArticleBuzz"
                                 github="https://github.com/SumitRodrigues/ArticleBuzz"
+                                type="Project"
+
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="AI Summarizer"
+                                img={project9}
+                                summary="An AI-powered web application that generates concise summaries of lengthy articles with just 
+                                one click. Built using React, TypeScript, and Tailwind CSS, it leverages OpenAI’s model for accurate 
+                                summarization. Features include a modern UI, local storage for history, and a seamless copy-to-clipboard
+                                 functionality, ensuring an efficient and user-friendly experience."
+                                link="https://aisummarizer-black.vercel.app/"
+                                github="https://github.com/SumitRodrigues/AI-Summarizer"
                                 type="Project"
 
                             />
