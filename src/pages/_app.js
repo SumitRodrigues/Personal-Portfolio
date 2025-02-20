@@ -5,7 +5,7 @@ import { AnimatePresence } from 'framer-motion'
 import { Montserrat } from 'next/font/google'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
-
+import Script from 'next/script'
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -13,22 +13,39 @@ const montserrat = Montserrat({
 })
 
 export default function App({ Component, pageProps }) {
-  const router= useRouter();
-  return (
+  const router = useRouter();
 
+  return (
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      {/* Google Analytics */}
+      <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-HC6Y0SJCF3" />
+      <Script
+        id="google-analytics"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-HC6Y0SJCF3', {
+              page_path: window.location.pathname,
+            });
+          `,
+        }}
+      />
+
       <main className={`${montserrat.variable} font-mont bg-light dark:bg-dark w-full min-h-screen`}>
         <NavBar />
-        <AnimatePresence mode='wait' >
-        <Component key={router.asPath} {...pageProps} />
+        <AnimatePresence mode='wait'>
+          <Component key={router.asPath} {...pageProps} />
         </AnimatePresence>
         <Footer />
       </main>
     </>
-
-  )
+  );
 }
