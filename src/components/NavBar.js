@@ -101,7 +101,7 @@ const NavBar = () => {
                     >
                         <PinterestIcon />
                     </motion.a>
-                    <motion.a href="https://leetcode.com/SumitRodrigues/" target={"_blank"} className='w-6 mx-3'
+                    <motion.a href="https://leetcode.com/u/sumitrod11/" target={"_blank"} className='w-6 mx-3'
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
                     >
