@@ -50,7 +50,7 @@ const Experience = () => {
     return (
         <div className='my-64'>
             <h2 className='font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16'>
-                Experience
+                Work Experience
             </h2>
 
             <div ref={ref} className='w-[75%] mx-auto relative lg:w-[90%] md:w-full'>
@@ -84,13 +84,15 @@ const Experience = () => {
                         time="2021 - 2023"
                         address="Mumbai, India"
                         work={[
-                            "Streamlined test automation frameworks using Java, Selenium, and JUnit, reducing manual testing by 30% and improving software reliability across compliance applications.",
-                            "Optimized Git and GitHub for CI/CD and version control, improving coding practices and continuous integration workflows for global e-commerce and financial solutions.",
-                            "Enforced Data Protection standards across enterprise apps using tools like Delphix Masking Tool, SQL Server, Oracle, Confluence, JIRA, and Excel.",
-                            "Automated Delphix masking jobs using Python, achieving 40% faster processing, and streamlined Confluence documentation using Selenium Webdriver and Java for improved efficiency.",
-                            "Enhanced real-time data monitoring with new Angular components and backend optimizations using Java and MySQL, improving system performance by 25%.",
-                            "Created a Python Automation Script to optimize validation procedures for the Enterprise Data Warehouse (EDW), significantly reducing manual effort and increasing operational efficiency.",
-                            "Conducted API validation utilizing the Ready API tool, encompassing SOAP and RESTful API across diverse banking applications maintaining 95% validation accuracy."
+                            "Led frontend development for fintech applications, including KYC Scoring and Self-Service tools, using Java, Spring Boot and AWS Lambda, reducing average page load times for 1M+ users",
+                            "Engineered backend codebase using Spring Boot microservices, to efficiently handle over 1M user requests. Implemented caching strategies and connection pooling, reducing average response time by 20%",
+                            "Built and managed CI/CD pipelines using Jenkins, Docker, and Kubernetes, reducing deployment times from 4 hours to 20 minutes, ensuring seamless code integration and automated testing",
+                            "Transitioned API architecture from REST to GraphQL, reducing redundant data calls by 85% and improving backend data retrieval efficiency",
+                            "Automated Delphix masking jobs using Python, achieving 40% faster processing, and streamlined Confluence documentation using Selenium Webdriver and Java for improved efficiency",
+                            "Enhanced real-time data monitoring with new Angular components and backend optimizations using Java and MySQL, improving system performance by 25%",
+                            "Created a Python Automation Script to optimize validation procedures for the Enterprise Data Warehouse (EDW), significantly reducing manual effort and increasing operational efficiency",
+                            "Reduced time for generating reports for FED by 7% by charting transactional data & liquidity assets into a report-generating tool (Triton) developed using PostgreSQL",
+                            "Conducted API validation utilizing the Ready API tool, encompassing SOAP and RESTful API across diverse banking applications maintaining 95% validation accuracy"
                         ]}
                     />
                     <Details
@@ -100,9 +102,10 @@ const Experience = () => {
                         time="2020 - 2020"
                         address="Pune, India"
                         work={[
-                            "Developed responsive front-end user interface using React to create responsive web applications, increasing customer satisfaction by 35%.",
-                            "Collaborated with cross-functional teams using Figma to ensure seamless integration of UX/UI designs, enhancing the overall user experience by 30%.",
-                            "Managed back-end services using Node.js, ensuring high performance and scalability, decreasing server processing times by 25%"
+                            "Built a high-performance e-commerce storefront using Java and Spring Boot, hosted on AWS EC2, leading to a 20% increase in conversion rates due to improved user experience",
+                            "Developed an interactive data visualization dashboard for a UK-based recruitment agency, utilizing React and D3.js, enhancing the client’s ability to match candidates with job opportunities efficiently",
+                            "Managed back-end services using Node.js, ensuring high performance and scalability, decreasing server processing times by 25%",
+                            "Configured and optimized Apache Tomcat servers to deploy Java-based microservices, improving API response time by 43% for high-traffic requests"
                         ]}
                     />
                 </ul>
