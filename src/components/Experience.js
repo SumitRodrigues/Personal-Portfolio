@@ -78,7 +78,7 @@ const Experience = () => {
                         ]}
                     />
                     <Details
-                        position="Associate Software Engineer"
+                        position="Software Engineer"
                         company="BNP Paribas"
                         companyLink="https://www.bnpparibas.co.in/en/?contact=bnp-paribas-india-solutions-private-limited"
                         time="2021 - 2023"
@@ -94,7 +94,7 @@ const Experience = () => {
                         ]}
                     />
                     <Details
-                        position="FrontEnd Developer Intern"
+                        position="Software Engineer Intern"
                         company="TechHighway Systems Pvt. Ltd"
                         companyLink="https://www.techhighway.ca/"
                         time="2020 - 2020"
