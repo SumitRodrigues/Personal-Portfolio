@@ -67,14 +67,15 @@ const Experience = () => {
                         time="2023 - Present"
                         address="Fullerton, CA"
                         work={[
-                            "Created responsive web applications using Javascript, HTML, CSS and OMNI Content Management System to enhance user experience, resulting in a 30% increase in user engagement.",
-                            "Implemented vulnerability scanning protocols using the Qualys dashboard for risk assessment of servers and cloud security, achieving an average of 90% risk mitigation and safeguarding sensitive data for over 2,000 users.",
-                            "Executed accessibility testing and continuous website monitoring, ensuring a WCAG-compliant accessibility score of 98% using Compliance Sheriff, and facilitated seamless content updates using HTML, CSS, and the OMNI CMS tool.",
-                            "Migrated virtual desktops from Virtual Computer Labs to AWS AppStream 2.0 using image builder, which enhanced the efficiency and scalability of the College of Communication, resulting in 20% better performance and 35% less downtime.",
-                            "Managed and maintained over 150 MacOS and Windows devices in labs, reducing downtime by 30% through updates and performance monitoring, and provided efficient technical support to faculty, achieving a 98% satisfaction rate.",
-                            "Leveraged Linux commands to update, troubleshoot, and explore the speech clinic server, effectively enhancing system performance and ensuring consistent uptime for critical services.",
-                            "Implemented Jenkins pipelines for and notification tool for daily titan campus newspaper, enhancing data workflow and backup throughput by 50%.",
-                            "Optimized IT infrastructure across 11 computer labs, leveraging JAMF for Mac management and SCCM for image installations, enhancing system efficiency by 80%."
+                            "Created responsive web applications using React, Javascript, HTML, CSS and OMNI Content Management System to enhance user experience, resulting in a 30% increase in user engagement",
+                            "Implemented vulnerability scanning protocols using the Qualys dashboard for risk assessment of servers and cloud security, achieving an average of 90% risk mitigation and safeguarding sensitive data for over 2,000 users",
+                            "Executed accessibility testing and continuous website monitoring, ensuring a WCAG-compliant accessibility score of 98% using Compliance Sheriff, and facilitated seamless content updates using HTML, CSS, and the OMNI CMS tool",
+                            "Migrated virtual desktops from Virtual Computer Labs to AWS AppStream 2.0 using image builder, which enhanced the efficiency and scalability of the College of Communication, resulting in 20% better performance and 35% less downtime",
+                            "Managed and maintained over 150 MacOS and Windows devices in labs, reducing downtime by 30% through updates and performance monitoring, and provided efficient technical support to faculty, achieving a 98% satisfaction rate",
+                            "Leveraged Linux commands to update, troubleshoot, and explore the speech clinic server, effectively enhancing system performance and ensuring consistent uptime for critical services",
+                            "Implemented Jenkins pipelines for and notification tool for daily titan campus newspaper, enhancing data workflow and backup throughput by 50%",
+                            "Optimized IT infrastructure across 11 computer labs, leveraging JAMF for Mac management and SCCM for image installations, enhancing system efficiency by 80%",
+                            "Migrated virtual desktops from on-prem systems to AWS AppStream 2.0, utilizing serverless architecture, leading to 65% less downtime and enhanced remote accessibility"
                         ]}
                     />
                     <Details
