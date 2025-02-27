@@ -9,6 +9,7 @@ import { LinkArrow } from '@/components/Icons';
 import HireMe from '@/components/HireMe';
 import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg';
 import TransitionEffect from '@/components/TransitionEffect';
+import * as serviceWorkerRegistration from '../serviceWorkerRegistration';
 
 export default function Home() {
   return (
@@ -77,4 +78,9 @@ export default function Home() {
       </main>
     </>
   );
+}
+
+// Register the service worker
+if (typeof window !== 'undefined') {
+  serviceWorkerRegistration.register();
 }
