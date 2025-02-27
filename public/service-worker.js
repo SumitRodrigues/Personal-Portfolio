@@ -16,11 +16,29 @@ self.addEventListener('install', (event) => {
 
 self.addEventListener('activate', (event) => {
     console.log('[Service Worker] Activating...');
-    event.waitUntil(self.clients.claim());
+    event.waitUntil(
+        Promise.all([
+            self.clients.claim(),
+            caches.keys().then(cacheNames => {
+                return Promise.all(
+                    cacheNames.map(cache => {
+                        if (cache !== 'pwa-cache') {
+                            console.log('[Service Worker] Deleting old cache:', cache);
+                            return caches.delete(cache);
+                        }
+                    })
+                );
+            })
+        ])
+    );
+    self.clients.matchAll({ includeUncontrolled: true }).then(clients => {
+        clients.forEach(client => client.navigate(client.url));
+    });
 });
 
 self.addEventListener('fetch', (event) => {
-    if (event.request.url.includes('/_next/') || event.request.destination === 'document') {
+    if (event.request.method !== 'GET') return;
+    if (event.request.url.includes('/_next/')) {
         event.respondWith(fetch(event.request));
         return;
     }
