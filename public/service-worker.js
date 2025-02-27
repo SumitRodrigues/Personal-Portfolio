@@ -1,6 +1,15 @@
-// filepath: /Users/sumitrodrigues/Desktop/Personal-Portfolio/public/service-worker.js
 const CACHE_NAME = "portfolio-cache-v1";
-const urlsToCache = ["/", "/index.html", "/manifest.json", "/favicon.ico"];
+const urlsToCache = [
+  "/",
+  "/manifest.json",
+  "/favicon.ico",
+  "/_next/static/*", // Cache Next.js static files
+  "/_next/static/chunks/*", // Cache Next.js chunks
+  "/_next/static/css/*", // Cache Next.js CSS files
+  "/_next/static/media/*", // Cache Next.js media files
+  "/images/profile/developer-pic-5.png", // Cache profile picture
+  "/images/svgs/miscellaneous_icons_1.svg" // Cache SVG icons
+];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
