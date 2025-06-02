@@ -20,6 +20,7 @@ const project6 = "/images/projects/Algorithm.jpg";
 const project7 = "/images/projects/Spotify.jpg";
 const project8 = "/images/projects/ArticleBuzz-Project.jpg";
 const project9 = "/images/projects/ai-summarizer.jpg";
+const project10 = "/images/projects/Inventory.jpg";
 
 
 
