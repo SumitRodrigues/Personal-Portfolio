@@ -245,6 +245,21 @@ const projects = () => {
 
                             />
                         </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Inventory Prediction System"
+                                img={project10}
+                                summary="A Machine Learning-driven system for intelligent inventory forecasting and optimized stock 
+                                reallocation across retail stores. The Inventory Prediction System leverages machine learning techniques
+                                 — primarily a Random Forest Regressor model — to predict future sales based on historical data, 
+                                 seasonality, and growth trends. Additionally, it provides actionable inventory transfer recommendations
+                                  between stores to optimize stock distribution while reducing holding and transportation costs."
+                                link="https://github.com/SumitRodrigues/inventory-prediction-system"
+                                github="https://github.com/SumitRodrigues/inventory-prediction-system"
+                                type="Project"
+
+                            />
+                        </div>
                     </div>
                 </Layout>
             </main>
