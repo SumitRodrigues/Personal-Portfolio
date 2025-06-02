@@ -21,6 +21,7 @@ const project7 = "/images/projects/Spotify.jpg";
 const project8 = "/images/projects/ArticleBuzz-Project.jpg";
 const project9 = "/images/projects/ai-summarizer.jpg";
 const project10 = "/images/projects/Inventory.jpg";
+const project11 = "/images/projects/airline.jpg";
 
 
 
@@ -256,6 +257,18 @@ const projects = () => {
                                   between stores to optimize stock distribution while reducing holding and transportation costs."
                                 link="https://github.com/SumitRodrigues/inventory-prediction-system"
                                 github="https://github.com/SumitRodrigues/inventory-prediction-system"
+                                type="Project"
+
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Airline Performance and Flight Delay Analysis"
+                                img={project10}
+                                summary="This project leverages the power of Kubernetes, Apache Spark, and Cassandra to analyze airline
+                                 performance and flight delays. We use .parquet files as our primary data format."
+                                link="https://github.com/SumitRodrigues/Spark-Kubernets-Cassandra_Project_CPSC531"
+                                github="https://github.com/SumitRodrigues/Spark-Kubernets-Cassandra_Project_CPSC531"
                                 type="Project"
 
                             />
