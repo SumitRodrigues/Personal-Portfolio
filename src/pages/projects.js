@@ -264,7 +264,7 @@ const projects = () => {
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
                                 title="Airline Performance and Flight Delay Analysis"
-                                img={project10}
+                                img={project11}
                                 summary="This project leverages the power of Kubernetes, Apache Spark, and Cassandra to analyze airline
                                  performance and flight delays. We use .parquet files as our primary data format."
                                 link="https://github.com/SumitRodrigues/Spark-Kubernets-Cassandra_Project_CPSC531"
